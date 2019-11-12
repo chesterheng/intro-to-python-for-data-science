@@ -1,5 +1,5 @@
-# Example, do not modify!
+# Division
 print(5 / 8)
 
-# Print the sum of 7 and 10
+# Addition
 print(7 + 10)
