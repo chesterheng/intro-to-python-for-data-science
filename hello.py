@@ -1,12 +1,8 @@
-# string to experiment with: place
-place = "poolhouse"
+# Create list areas
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
-# Use upper() on place: place_up
-place_up = place.upper()
+# Print out the index of the element 20.0
+print(areas.index(20))
 
-# Print out place and place_up
-print(place)
-print(place_up)
-
-# Print out the number of o's in place
-print(place.count("o"))
+# Print out how often 9.50 appears in areas
+print(areas.count(9.5))
