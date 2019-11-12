@@ -1,12 +1,12 @@
-# Create lists first and second
-first = [11.25, 18.0, 20.0]
-second = [10.75, 9.50]
+# string to experiment with: place
+place = "poolhouse"
 
-# Paste together first and second: full
-full = first + second
+# Use upper() on place: place_up
+place_up = place.upper()
 
-# Sort full in descending order: full_sorted
-full_sorted = sorted(full, reverse=True)
+# Print out place and place_up
+print(place)
+print(place_up)
 
-# Print out full_sorted
-print(full_sorted)
+# Print out the number of o's in place
+print(place.count("o"))
