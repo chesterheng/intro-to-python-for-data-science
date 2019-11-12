@@ -1,15 +1,15 @@
-# Create list areas
-areas = [11.25, 18.0, 20.0, 10.75, 9.50]
+# Definition of radius
+r = 0.43
 
-# Use append twice to add poolhouse and garage size
-areas.append(24.5)
-areas.append(15.45)
+# Import the math package
+import math
 
-# Print out areas
-print(areas)
+# Calculate C
+C = 2 * math.pi * r
 
-# Reverse the orders of the elements in areas
-areas.reverse()
+# Calculate A
+A = math.pi * r ** 2
 
-# Print out areas
-print(areas)
+# Build printout
+print("Circumference: " + str(C))
+print("Area: " + str(A))
